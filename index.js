@@ -40,8 +40,13 @@ function findTheCheese(foods) {
 
 function wordsThatStartWithB(words){
   var wordsArr = []
-  for(let i = 0; i < words.length; i++)
+  for(let i = 0; i < words.length; i++) {
+    if (("b").includes(words[i]))
+    
+  }
 }
+
+"brian".startsWith("b")
 
 wordsThatStartWithB(["brian", "tim", "john"]) // ["brian"]
 wordsThatStartWithB(["banana", "berry", "cheddar"]) // ["banana", "berry"]
