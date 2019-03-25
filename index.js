@@ -25,7 +25,7 @@ function longPlaneteerCalls(words) {
 }
 
 function findTheCheese(foods) {
-  var cheeses = ["cheddar", "gouda", "camembert"];
+  var cheeses = ["cheddar", "gouda", "camembert", "swiss"];
   for(let i = 0; i < foods.length; i++){
     if (cheeses.includes(foods[i])){
       return foods[i];
@@ -33,3 +33,16 @@ function findTheCheese(foods) {
   }
   return "no cheese!" ;
 }
+
+
+
+
+
+function wordsThatStartWithB(words){
+  var wordsArr = []
+  for(let i = 0; i < words.length; i++)
+}
+
+wordsThatStartWithB(["brian", "tim", "john"]) // ["brian"]
+wordsThatStartWithB(["banana", "berry", "cheddar"]) // ["banana", "berry"]
+wordsThatStartWithB(["chad", "prince", "tom"]) // []
